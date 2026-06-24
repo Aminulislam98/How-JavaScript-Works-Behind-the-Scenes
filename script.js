@@ -53,15 +53,27 @@
 // user.getAge();
 // Regular function vs Arrow function
 
-const aminul = {
-  firstName: 'aminul',
-  year: 2003,
-  calcAge: function () {
-    console.log(2026 - this.year);
-  },
-  greet: function () {
-    console.log(`Hey ${this.firstName}`);
-  },
-};
-aminul.calcAge();
-aminul.greet();
+// const aminul = {
+//   firstName: 'aminul',
+//   year: 2003,
+//   calcAge: function () {
+// Solution 1
+//  const self = this;  self or that
+// console.log(2026 - this.year);
+// const isMillennial = function () {
+//   console.log(self);
+//   console.log(self.year >= 1981 && self.year <= 1996);
+// };
+// isMillennial();
+
+//     const isMillennial = () => {
+//       console.log(this);
+//       console.log(this.year >= 1981 && this.year <= 1996);
+//     };
+//     isMillennial();
+//   },
+//   greet: function () {
+//     console.log(`Hey ${this.firstName}`);
+//   },
+// };
+// aminul.calcAge();
