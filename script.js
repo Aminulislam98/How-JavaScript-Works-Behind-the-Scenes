@@ -11,3 +11,5 @@ function calcAGe(birthYear) {
 // const fistName = 'Aminul';
 const lastName = 'islam';
 calcAGe(2003);
+
+// Variable Environment: Hoisting and the TDZ
