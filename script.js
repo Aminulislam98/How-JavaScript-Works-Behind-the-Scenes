@@ -77,3 +77,27 @@
 //   },
 // };
 // aminul.calcAge();
+
+// const addExpr = function (a, b) {
+//   console.log(arguments);
+//   return a + b;
+// };
+// addExpr(2, 5);
+// addExpr(2, 5, 8, 12);
+
+// var addArrow = (a, b) => {
+//   console.log(a + b);
+//   return a + b;
+// };
+// addArrow(2, 5, 8, 12);
+
+// function calculate() {
+//   let total = 0;
+//   for (let i = 0; i < arguments.length; i++) {
+//     total += arguments[i];
+//   }
+//   return total;
+// }
+
+// const result = calculate(1, 2, 3, 4, 5);
+// console.log(result);
