@@ -101,3 +101,17 @@
 
 // const result = calculate(1, 2, 3, 4, 5);
 // console.log(result);
+
+// Memory management : Primitives vs Objects (Reference Types)
+
+// function greet() {
+//   const message = 'Hello, World!';
+// console.log(message);
+// }
+
+// greet.message = 'Hello, World!';
+// greet.firstName = 'Aminul';
+
+// console.log(greet.message); // Output: undefined
+// console.log(greet.firstName); // Output: undefined
+// console.log(greet.name);
