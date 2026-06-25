@@ -133,7 +133,9 @@ const marji = { ...aminul };
 
 // Deep copy/clone
 
-const aminulCopy = structuredClone(aminul);
-aminulCopy.family.push('adil');
-console.table('original:', aminul);
-console.table('clone:', aminulCopy);
+// const aminulCopy = structuredClone(aminul);
+// aminulCopy.family.push('adil');
+// console.table('original:', aminul);
+// console.table('clone:', aminulCopy);
+
+// learned how javaScript heap memory get clean by garbage collector
