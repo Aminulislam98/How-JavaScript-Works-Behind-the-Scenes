@@ -115,3 +115,25 @@
 // console.log(greet.message); // Output: undefined
 // console.log(greet.firstName); // Output: undefined
 // console.log(greet.name);
+
+// Object reference in Practice (Shallow vs. deep copies)
+
+const aminul = {
+  firstName: 'aminul',
+  age: 23,
+  family: ['Khadijah', 'Marjiya'],
+};
+
+// Shallow copy
+
+const marji = { ...aminul };
+// marji.family.push('adil');
+// console.log('Before:', aminul);
+// console.log('after:', marji);
+
+// Deep copy/clone
+
+const aminulCopy = structuredClone(aminul);
+aminulCopy.family.push('adil');
+console.table('original:', aminul);
+console.table('clone:', aminulCopy);
